@@ -23,7 +23,7 @@ public class Primitives {
                 World  
                 """;
         System.out.println(txt1.indexOf("o", 7));
-        //todo : not yet
+
         double a = 0.1, b = 0.2, c = 0.3;
         if ((c = Math.round(c += a++ + b)) > (a = b += c)) {
             System.out.println("X");
