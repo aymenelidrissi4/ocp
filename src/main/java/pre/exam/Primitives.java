@@ -1,5 +1,7 @@
 package pre.exam;
 
+import java.time.Duration;
+
 public class Primitives {
     public static void main(String[] args) {
         // Correct initialization
@@ -32,5 +34,23 @@ public class Primitives {
         } else {
             System.out.println("Z");
         }
+
+        //qst : which expression is true for initialization
+        //var slash3 = '\\\';
+        //var 24H = Duration.ofHours(24);
+        //var _ = "A_Z".indexOf("_");
+        var slash2 = '\\';
+
+        String[] txt = {"AB", "CD"};
+        x:
+        for (String value : txt) {
+            var values = value.toCharArray();
+            for (int i = values.length-1; i >= 0; i--) {
+                if (i < 1) continue x;
+                else if (values[i] == 'C') break;
+                System.out.println(txt[i]);
+            }
+        }
+
     }
 }
