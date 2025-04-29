@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T17:03:17.946410336Z</date>
+  <millis>1745859797946</millis>
+  <nanos>410336</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T17:11:37.288998054Z</date>
+  <millis>1745860297288</millis>
+  <nanos>998054</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T17:11:45.977972593Z</date>
+  <millis>1745860305977</millis>
+  <nanos>972593</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T17:15:07.822558903Z</date>
+  <millis>1745860507822</millis>
+  <nanos>558903</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T17:15:20.857008893Z</date>
+  <millis>1745860520857</millis>
+  <nanos>8893</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-28T17:15:43.716089935Z</date>
+  <millis>1745860543716</millis>
+  <nanos>89935</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-04-29T13:55:26.153067627Z</date>
+  <millis>1745934926153</millis>
+  <nanos>67627</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.MultiHandlerLoggingExample</logger>
+  <level>SEVERE</level>
+  <class>org.example.MultiHandlerLoggingExample</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>SEVERE message: Serious problem occurred!</message>
+</record>
+</log>
