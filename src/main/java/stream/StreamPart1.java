@@ -7,9 +7,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
 
 class Product {
     private double price;
@@ -33,13 +31,13 @@ class Product {
     }
 }
 
-class Food extends Product {
+class Food extends Product1 {
     public Food() {
         super(5.0);
     }
 }
 
-class Drink extends Product {
+class Drink extends Product1 {
     public Drink() {
         super(3.0);
     }
@@ -111,13 +109,13 @@ public class StreamPart1 {
         System.out.println("Sum until 3: " + sum);
 
         // 2. Collection/Array streams
-        List<Product> list = new ArrayList<>();
+        List<Product1> list = new ArrayList<>();
         list.add(new Drink());
         list.stream().parallel()
-                .mapToDouble(Product::getPrice)
+                .mapToDouble(Product1::getPrice)
                 .sum();
 
-        Product[] array = {new Drink(), new Food()};
+        Product1[] array = {new Drink(), new Food()};
         Arrays.stream(array)
                 .filter(p -> p.getPrice() > 2)
                 .forEach(p -> p.setDiscount(0.1));
