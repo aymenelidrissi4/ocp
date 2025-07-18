@@ -51,6 +51,9 @@ public class Primitives {
                 System.out.println(txt[i]);
             }
         }
-
+//        String[] greeting = {""" Hello """, "world"};
+//        float[][] smallchange = {1c, 5n, 10d, 21q};
+//        var[][] matrix = {{1, 2},{1,2}};
+//        boolean var = "xyz".charAt(0) == -1;
     }
 }

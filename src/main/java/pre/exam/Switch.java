@@ -12,7 +12,7 @@ public class Switch {
 
     public static void main(String[] args) {
         try {
-            Number num = Double.valueOf(1);
+            Number num = Integer.valueOf(1);
             System.out.println(test(num));
             num = null;
             System.out.println(test(num));
